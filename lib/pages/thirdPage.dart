@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class ThirdPage extends StatelessWidget {
   const ThirdPage({Key? key,required this.valu3p}) : super(key: key);
-  final int valu3p;
+  final String valu3p;
 
   @override
   Widget build(BuildContext context) {

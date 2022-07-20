@@ -1,3 +1,4 @@
+import 'package:constructor_navigatore/pages/fifthPage.dart';
 import 'package:constructor_navigatore/pages/firstPage.dart';
 import 'package:flutter/material.dart';
 
@@ -17,6 +18,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: const MyHomePage(),
     );
   }
@@ -27,7 +29,7 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int myNUM=01714918095;
+    var myNUM="Data From First Page";
     return Scaffold(
       appBar: AppBar(title: Text("HOME PAGE"),),
       body: SafeArea(
